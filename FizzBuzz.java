@@ -3,9 +3,9 @@ public class FizzBuzz {
         // fizzbuzz logic here
         if(number%15==0){
             System.out.println("FizzBuzz");
-        }if(number%3==0){
+        }else if(number%3==0){
             System.out.println("Fizz");
-        }if(number%5==0){
+        }else if(number%5==0){
             System.out.println("Buzz");
         }else{
             System.out.println(number);
@@ -19,7 +19,10 @@ public class FizzBuzz {
 
     public static void main(String[] args){
         System.out.println("testing");
-        FizzBuzz.fizzbuzz(30);
+        FizzBuzz.fizzbuzz(15);
+        FizzBuzz.fizzbuzz(3);
+        FizzBuzz.fizzbuzz(5);
+        FizzBuzz.fizzbuzz(2);
     }
 }
 
